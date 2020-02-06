@@ -66,7 +66,7 @@ jobs:
     
     - name: Clone passwall code
       run: |
-        cd lede/package &&  git clone https://github.com/Lienol/openwrt-package.git
+        cd openwrt/package &&  git clone https://github.com/Lienol/openwrt-package.git
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
