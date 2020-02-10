@@ -26,7 +26,7 @@ echo '去除默认bootstrap主题'
 echo '修改wifi名称'
 sed -i 's/OpenWrt/Silime/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #rm -rf /package/lean/luci-theme-argon
-https://github.com/destan19/OpenAppFilter.git /package/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git /package/OpenAppFilter
 #git clone https://github.com/jerrykuku/luci-theme-argon.git /package/lean/luci-theme-argon
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/Lienol/openwrt-package.git  package/openwrt-package
