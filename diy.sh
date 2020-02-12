@@ -23,6 +23,9 @@ echo '去除默认bootstrap主题'
 #rm -rf ./package/lean/luci-theme-argon
 #ln -s ../../../luci-theme-argon ./package/lean/
 
+echo '删除旧版kodexplorer'
+rm -rf ./package/lean/luci-app-kodexplorer
+
 echo '修改wifi名称'
 sed -i 's/OpenWrt/Silime/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #rm -rf /package/lean/luci-theme-argon
