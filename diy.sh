@@ -29,9 +29,9 @@ rm -rf ./package/lean/luci-app-kodexplorer
 echo '修改wifi名称'
 #sed -i 's/OpenWrt/Silime/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #rm -rf /package/lean/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-#git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/Lienol/openwrt-package.git  package/openwrt-package
 git clone https://github.com/silime/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/openwrt-dev/po2lmo.git
