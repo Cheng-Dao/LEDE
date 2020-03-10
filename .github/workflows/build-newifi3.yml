@@ -80,7 +80,7 @@ jobs:
       id: package
       run: |
         cd openwrt
-        make download -j8 V==s
+        make download -j8 
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
 
@@ -89,7 +89,7 @@ jobs:
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
-        make -j$(nproc) V=s  || make -j1 V=s
+        make -j$(nproc)   || make -j1 
         echo "::set-output name=status::success"
 
     - name: Upload bin directory
