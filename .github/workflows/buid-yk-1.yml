@@ -8,7 +8,7 @@ on:
     branches:
       - master
     paths:
-      - 'yk1.config'
+      - 'G-DOCK.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -17,7 +17,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: .config
+  CONFIG_FILE: G-DOCK.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false    
