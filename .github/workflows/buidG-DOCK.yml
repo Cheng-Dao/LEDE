@@ -1,5 +1,5 @@
 
-name: Build yk1
+name: Build G-DOCK
 
 on:
   release:
