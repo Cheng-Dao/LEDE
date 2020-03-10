@@ -33,7 +33,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/silime/luci-app-xunlei.git package/luci-app-xunlei
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/Lienol/openwrt-package.git  package/openwrt-package
-git clone https://github.com/silime/luci-app-kodexplorer.git package/luci-app-kodepackage
+git clone https://github.com/silime/luci-app-kodexplorer.git package/luci-app-kodeplorer
 git clone https://github.com/silime/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/openwrt-dev/po2lmo.git
 pushd po2lmo
