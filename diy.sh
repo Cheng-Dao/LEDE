@@ -16,7 +16,6 @@ echo '去除默认bootstrap主题'
 
 echo '删除旧版argon,链接新版'
 rm -rf ./package/lean/luci-theme-argon
-ln -s ../../../luci-theme-argon ./package/lean/
 
 echo '下载新版argon主题'
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
