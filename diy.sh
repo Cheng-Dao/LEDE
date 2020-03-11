@@ -19,7 +19,7 @@ rm -rf ./package/lean/luci-theme-argon
 ln -s ../../../luci-theme-argon ./package/lean/
 
 echo '下载新版argon主题'
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 echo '删除旧版kodexplorer'
 rm -rf ./package/lean/luci-app-kodexplorer
